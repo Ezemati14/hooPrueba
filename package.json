@@ -1,0 +1,18 @@
+{
+    "title": "DWEC - Examen Primera Evaluación",
+    "name": "examen_dwec_1ev",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "cypress run -b chrome",
+        "test1": "cypress run -b chrome -s test/test1.js",
+        "test2": "cypress run -b chrome -s test/test2.js",
+        "test3": "cypress run -b chrome -s test/test3.js"
+    },
+    "description": "Examen de la primera evaluación del módulo de Desarrollo de Web en Entorno Cliente",
+    "license": "GPL-3.0",
+    "author": "Pedro Prieto",
+    "type": "module",
+    "devDependencies": {
+        "cypress": "^8.7.0"
+    }
+}
